@@ -1,0 +1,7 @@
+{
+    "name": "InvokyrMorePlayers",
+    "version_number": "0.1.0",
+    "website_url": "https://github.com/darkharasho/invokyr-more-players",
+    "description": "Raises Invokyr's player limit from 6 to a number you choose (12 by default) for games you host. Experimental: players past the sixth share characters and spawn points.",
+    "dependencies": []
+}
