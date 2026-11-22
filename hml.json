@@ -1,0 +1,16 @@
+{
+  "$schema": "https://hml-share.project96.workers.dev/v1/catalog/schema.json",
+  "schema": 1,
+  "mods": [
+    {
+      "id": "more-players",
+      "name": "InvokyrMorePlayers",
+      "description": "Raises Invokyr's player limit from 6 to a number you choose (12 by default) for games you host. Experimental: players past the sixth share characters and spawn points.",
+      "games": [
+        "nexus-invokyr"
+      ],
+      "icon": "thunderstore/icon.png",
+      "readme": "thunderstore/README.md"
+    }
+  ]
+}
