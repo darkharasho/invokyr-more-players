@@ -11,7 +11,7 @@ namespace InvokyrMorePlayers
     {
         public const string PluginGuid = "com.darkharasho.invokyr.moreplayers";
         public const string PluginName = "InvokyrMorePlayers";
-        public const string PluginVersion = "0.1.0";
+        public const string PluginVersion = "0.1.1";
 
         internal static new ManualLogSource Log;
         internal static ConfigEntry<int> MaxPlayers;
