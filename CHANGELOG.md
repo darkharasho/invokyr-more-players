@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.1.2
+- Fix the game crashing on launch: no longer patches `VhsNetworkManager.Awake` (the patch crashed inside IL2CPP). The limit is still raised every half second.
+
 ## 0.1.1
 - Declare the BepInEx IL2CPP pack as a dependency, so mod managers install BepInEx with this mod.
 

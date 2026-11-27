@@ -26,7 +26,6 @@ namespace InvokyrMorePlayers
 
         public static void Apply(Harmony harmony)
         {
-            Postfix(harmony, typeof(VhsNetworkManager), nameof(VhsNetworkManager.Awake), nameof(RaiseNetworkLimit));
             Prefix(harmony, typeof(SteamLobby), nameof(SteamLobby.Create), nameof(LobbyCreatePrefix));
             Prefix(harmony, typeof(SteamMatchmaking), nameof(SteamMatchmaking.CreateLobby), nameof(SteamCreateLobbyPrefix));
             Prefix(harmony, typeof(SteamMatchmaking), nameof(SteamMatchmaking.AddRequestLobbyListNumericalFilter), nameof(LobbyFilterPrefix));
